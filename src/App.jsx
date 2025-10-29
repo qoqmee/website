@@ -1,5 +1,5 @@
-import Girl from './Girl';
-import Header from './Header';
+import Girl from './components/Girl';
+import Header from './components/Header';
 
 const App = () => {
   return (
