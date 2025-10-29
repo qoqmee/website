@@ -1,9 +1,12 @@
-
-import { Heart } from 'lucide-react';
+import Girl from './Girl';
+import Header from './Header';
 
 const App = () => {
   return (
-    <Heart />
+    <div>
+    <Header />
+    <Girl/>
+    </div>
   );
 };
 
