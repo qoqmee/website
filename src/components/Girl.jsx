@@ -11,7 +11,7 @@ const Girl = () => {
                         <p className='girl-description'>We provide various services to make <br /> your business grow and get bigger.
                             Your <br />satisfaction is our first priority.
                         </p>
-                        <button className='girl-button'>Get Started <ArrowRight /></button>
+                        <button className='girl-button'> <p>Get Started ⭢</p></button>
                     </div>
                     <div className='girl-img-container'>
                         <div className='girl-img-wrapper'>

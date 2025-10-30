@@ -23,7 +23,7 @@ const Header = () => {
                         </nav>
                     </div>
                     {/* кнопка меню для мобилок */}
-                    <button className='mobile-contact-btn'>Contact us</button>
+                    <button className='mobile-contact-btn'><p>Contact us</p></button>
                 </div>
             </div>
         </header>
