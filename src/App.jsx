@@ -6,6 +6,8 @@ import Room from './components/Room';
 import ServicesSection from './components/Services';
 import CustomersSection from './components/CustomersSection';
 import Orange from './components/Orange';
+import Testion from './components/Test';
+import Faq from './components/Faq'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
     <Customer/>
     <Room/>
     <CustomersSection/>
+    <Testion/>
+    <Faq/>
     <Orange/>
     </div>
   );

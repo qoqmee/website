@@ -1,0 +1,118 @@
+/* Общий контейнер */
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    position: relative;
+}
+
+/* Заголовок */
+.faq-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-subtitle {
+    color: #FF2D59;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+}
+
+.faq-title {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #111029;
+    line-height: 56px;
+}
+
+/* Список вопросов */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+}
+
+.faq-item--open {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Кнопка вопроса */
+.faq-question {
+    width: 100%;
+    padding: 18px 20px;
+    background: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e293b;
+    transition: background-color 0.2s ease;
+}
+
+.faq-question:hover {
+    background-color: #f8fafc;
+}
+
+.faq-arrow {
+    color: #6b7280;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+.faq-item--open .faq-arrow {
+    transform: rotate(180deg);
+}
+
+/* Ответ */
+.faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background: white;
+}
+
+.faq-item--open .faq-answer {
+    padding: 16px 20px;
+    max-height: 500px;
+}
+
+.faq-answer p {
+    margin: 0;
+    font-size: 16px;
+    color: #6b7280;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32PX;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+    .faq-title {
+        font-size: 26px;
+    }
+
+    .faq-question {
+        padding: 16px 16px;
+        font-size: 15px;
+    }
+
+    .faq-answer p {
+        font-size: 14px;
+    }
+}
