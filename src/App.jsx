@@ -19,8 +19,8 @@ const App = () => {
     <Customer/>
     <Room/>
     <CustomersSection/>
-    <Testion/>
     <Faq/>
+    <Testion/>
     <Orange/>
     </div>
   );
