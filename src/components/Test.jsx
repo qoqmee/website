@@ -9,7 +9,7 @@ const Testion = () => {
       title: 'Ronald Richards',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: ( 
-        <img src="src/components/Ellipse.png" width="100" height="100">
+        <img src="src/assets/Ellipse.png" width="100" height="100">
         </img>
       ),
     },
@@ -18,7 +18,7 @@ const Testion = () => {
       title: 'Guy Hawkins',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: (
-        <img src="src/components/Ellipse (1).png" width="100" height="100">
+        <img src="src/assets/Ellipse (1).png" width="100" height="100">
         </img>
       ),
     },
@@ -27,7 +27,7 @@ const Testion = () => {
       title: 'Kristin Watson',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: (
-        <img src="src/components/Ellipse (2).png" width="100" height="100">
+        <img src="src/assets/Ellipse (2).png" width="100" height="100">
         </img>
       ),
     },
@@ -36,7 +36,7 @@ const Testion = () => {
       title: 'Robert Fox',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: (
-        <img src="src/components/Ellipse (3).png" width="100" height="100">
+        <img src="src/assets/Ellipse (3).png" width="100" height="100">
         </img>
       ),
     },
@@ -45,7 +45,7 @@ const Testion = () => {
       title: 'Savannah Nguyen',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: (
-        <img src="src/components/Ellipse (4).png" width="100" height="100">
+        <img src="src/assets/Ellipse (4).png" width="100" height="100">
         </img>
       ),
     },
@@ -54,7 +54,7 @@ const Testion = () => {
       title: 'Courtney Henry',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       icon: (
-        <img src="src/components/Ellipse (5).png" width="100" height="100">
+        <img src="src/assets/Ellipse (5).png" width="100" height="100">
         </img>
       ),
     }

@@ -1,0 +1,254 @@
+.footer {
+  background-color: #ffffff;
+  padding-top: 80px;
+}
+
+/* Блок "Start a New Project" */
+.cta-block {
+  background-color: #FFCC00;
+  padding: 40px 20px 60px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 0 auto 60px;
+  max-width: 1000px;
+}
+
+.cta-subtitle {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.cta-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 24px;
+  margin-top: 10px;
+  line-height: 56px;
+}
+
+.cta-button {
+  background: #4C40F7;
+  color: white;
+  width: 200px;
+  height: 60px;
+  border: none;
+  padding: 19px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cta-button:hover {
+  background: #2563eb;
+}
+
+/* Блок "Subscribe Now" */
+.subscribe-block {
+  background-color: #4C40F7;
+  padding: 40px 20px 60px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 0 auto 60px;
+  max-width: 1000px;
+}
+
+.subscribe-subtitle {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.subscribe-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 24px;
+  margin-top: 10px;
+  line-height: 56px;
+}
+
+.subscribe-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.subscribe-input-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.subscribe-input {
+  width: 100%;
+  padding: 12px 50px 12px 16px; /* отступ справа для стрелки */
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+}
+
+.subscribe-submit {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  background: #f5f5f5; /* светло-серый фон */
+  border: none;
+  width: 40px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #6d28d9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.subscribe-submit:hover {
+  background: #e0e0e0;
+}
+
+/* Основной футер */
+.main-footer {
+  background: #00113B; 
+  padding: 60px 20px 30px;
+  color: white;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  z-index: 1;
+  position: relative;
+}
+
+.footer-col {
+  flex: 1;
+  width: 360px;
+  height: 288px;
+  padding-right: 50px;
+}
+
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  background: #3b82f6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: white;
+  line-height: 28px;
+}
+
+.world-map {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  filter: brightness(0) invert(1); /* делает карту белой */
+}
+
+.footer-contact {
+  font-size: 14px;
+  color: #94a3b8;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* Нижняя панель */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #334155;
+}
+
+.copyright {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ABAFC7;
+}
+
+.footer-nav {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: white;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cta-block,
+  .subscribe-block {
+    max-width: 100%;
+    margin: 0 0 40px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

@@ -1,8 +1,9 @@
 /* ServicesSection.css */
 
 .services-section {
-
+  background: var(--bg-color, #F9F9FD);
   padding-top: 50px;
+  padding-bottom: 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

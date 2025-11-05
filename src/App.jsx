@@ -5,9 +5,9 @@ import Customer from './components/Customer';
 import Room from './components/Room';
 import ServicesSection from './components/Services';
 import CustomersSection from './components/CustomersSection';
-import Orange from './components/Orange';
 import Testion from './components/Test';
-import Faq from './components/Faq'
+import Faq from './components/Faq';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
     <CustomersSection/>
     <Faq/>
     <Testion/>
-    <Orange/>
+    <Footer/>
     </div>
   );
 };
