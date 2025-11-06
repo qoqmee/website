@@ -1,4 +1,5 @@
 import React from 'react'
+import './documentation.css'
 
 const Documentation = () => {
     return (
@@ -18,5 +19,5 @@ const Documentation = () => {
         </section>
     )
 }
-
+ 
 export default Documentation

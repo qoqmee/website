@@ -1,6 +1,5 @@
 .customers-section {
   padding: 4rem 2rem;
-  background: var(--bg-color, #fff);
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -52,16 +51,9 @@
 }
 
 /* Светлая тема */
-body.light-theme .customers-section {
-  background: #fff;
-}
 
 body.light-theme .section-title {
   color: #FF4757;
-}
-
-body.light-theme .section-subtitle {
-  color: #1e1e3f;
 }
 
 /* Темная тема */

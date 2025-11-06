@@ -1,7 +1,8 @@
+@import "tailwindcss";
+
 /* ServicesSection.css */
 
 .services-section {
-  background: var(--bg-color, #F9F9FD);
   padding-top: 50px;
   padding-bottom: 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -181,10 +182,59 @@ body.light-theme .service-card:hover .learn-more-btn svg {
   0% {
     opacity: 0.3;
   }
+
   50% {
     opacity: 0.6;
   }
+
   100% {
     opacity: 0.3;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  .services-section {
+    width: 949px;
+    background-color: white;
+    margin: 0;
+    padding-left: 70px;
+    padding-bottom: 50px;
+  }
+
+  h2.section-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  h3.section-subtitle {
+    text-align: center;
+    font-size: 52px;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  h4.card-title {
+    font-size: 40px;
+    margin-bottom: 0.2rem;
+    margin-top: 10px;
+    color: var(--text-color, #fff);
+    transition: color 0.3s ease;
+  }
+
+  p.card-description {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary, #ccc);
+    transition: color 0.3s ease;
   }
 }

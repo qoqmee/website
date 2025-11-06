@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Основной контейнер карусели */
+.carousel-wrapper {
+  background-color: #FE9602;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  height: 450px;
+}
+
+/* Стиль одного слайда */
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Иконка кавычек */
+img.quote-icon{
+    width: 100%;
+    height: 80px;
+    padding-top: 40px;
+}
+
+/* Текст цитаты */
+.quote-text {
+  font-size: 28px;
+  line-height: 40px;
+  max-width: 723px;
+  letter-spacing: -0.1px;
+  margin: 0 auto 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Автор */
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.732);
+  z-index: 10;
+}
+
+
+
+
+
+
+

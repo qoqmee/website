@@ -1,5 +1,4 @@
 import React from 'react'
-import { ArrowRight } from 'lucide-react';
 
 const Girl = () => {
     return (
@@ -7,7 +6,8 @@ const Girl = () => {
             <div className='girl-container'>
                 <div className='girl-content'>
                     <div className='girl-text'>
-                        <h1 className='girl-title'>Make your business more powerful with us</h1>
+                        <h1 className='girl-title'>Make your business <span className='orange-text'>
+                             more powerful</span> with us</h1>
                         <p className='girl-description'>We provide various services to make <br /> your business grow and get bigger.
                             Your <br />satisfaction is our first priority.
                         </p>
@@ -23,7 +23,7 @@ const Girl = () => {
                             <img src="src/assets/kryg.svg" alt="" className='layer-kryg' />
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </section>
     )

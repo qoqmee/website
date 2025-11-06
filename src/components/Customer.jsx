@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './customerr.css'
 const Customer = () => {
     return (
         < section className="customer-satisfaction">

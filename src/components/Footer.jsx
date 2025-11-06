@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
 
                     {/* Правая колонка: контакты */}
-                    <div className="footer-col">
+                    <div id="about" className="footer-col">
                         <h6 className="footer-heading">Contact</h6>
                         <p className="footer-contact">
                             Jl KH Samanhudi<br />

@@ -1,9 +1,8 @@
-/* ServicesSection.css */
+@import "tailwindcss";
 
-.services-section {
-
+.testimonials-section {
   padding-top: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-title {
@@ -13,6 +12,7 @@
   color: var(--accent-color, #FFD700);
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-subtitle {
@@ -20,9 +20,10 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   line-height: 1.3;
+  font-family: 'Poppins', sans-serif;
 }
 
-.services-grid {
+.testimonials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -30,7 +31,7 @@
   margin: 0 auto;
 }
 
-.service-card {
+.testimonial-card {
   border-radius: 16px;
   padding: 2rem;
   transition: all 0.3s ease;
@@ -44,7 +45,7 @@
   cursor: pointer;
 }
 
-.service-card:hover .learn-more-btn svg {
+.testimonial-card:hover .learn-more-btn svg {
   stroke: white;
 }
 
@@ -95,55 +96,8 @@
   color: var(--btn-text, #fff);
 }
 
-.learn-more-btn svg {
-  stroke: var(--btn-text, #fff);
-  transition: stroke 0.3s ease;
-}
-
-body.light-theme .section-title {
-  color: #FF4757;
-}
-
-body.light-theme .service-card {
-  background: #fff;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  color: #1e1e3f;
-}
-
-body.light-theme .card-title {
-  color: #1e1e3f;
-}
-
-body.light-theme .card-description {
-  color: #666;
-}
-
-body.light-theme .learn-more-btn {
-  background: #f0f0f0;
-  color: #333;
-}
-
-body.light-theme .learn-more-btn:hover {
-  background: #6C5CE7;
-  color: white;
-}
-
-body.light-theme .learn-more-btn svg {
-  stroke: #333;
-}
-
-body.light-theme .service-card:hover .learn-more-btn svg {
-  stroke: white;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 0.3;
+@media (max-width: 500px) {
+  .testimonials-section {
+    display: none;
   }
 }
